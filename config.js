@@ -9,7 +9,7 @@ global.owner = JSON.parse(fs.readFileSync('./owner.json')) // Put your number to
 global.mods = JSON.parse(fs.readFileSync('./moderator.json')) // Want some help?
 global.prems = JSON.parse(fs.readFileSync('./premium.json'))
 
-global.girlfren = [] // Your gf/pacar
+global.girlfren = ["+6283844508188"] // Your gf/pacar
 
 //Api website
 global.APIs = { // API Prefix
