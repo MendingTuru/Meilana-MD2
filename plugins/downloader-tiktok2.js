@@ -13,5 +13,7 @@ if (!args[0]) throw `Use example ${usedPrefix}${command} https://www.tiktok.com/
 handler.help = ['tiktok2'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 handler.command = /^(tik(tok2)?)$/i
+handler.premium = true
+handler.limit = true
 
 export default handler
