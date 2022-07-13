@@ -1,19 +1,29 @@
-import { fetchUser } from 'tiktok-scraper-ts'
+let fetch = require('node-fetch')
 
-let handler = async (m, { conn, text }) => {
-	if (!text) throw 'Input username'
-	text = text.replace(/@/, '')
-	let res = await fetchUser(text), img = res.avatar
-	delete res.id, delete res.secretUID, delete res.avatar
-	let txt = Object.keys(res).map((v) => {
-		return `*${v.capitalize()}:* ${res[v] ?? ''}`
-	}).join`\n`
-	conn.sendMessage(m.chat, { image: { url: img }, caption: txt }, { quoted: m })
+let handler = async(m, { conn, text }) => {
+
+  if (!text) return conn.reply(m.chat, 'Harap Masukan Username', m)
+
+  await m.reply('Searching...')
+    let res = await fetch(`https://x-restapi.herokuapp.com/api/tiktok-stalk?username=${text}&apikey=BETA`)
+    let json = await res.json()
+    if (res.status !== 200) throw await res.text()
+    if (!json.status) throw json
+    let thumb = await (await fetch(json.avatarLarger)).buffer()
+    let hasil = `*── 「 TIK-TOK STALK 」 ──*
+▢ *Nama*: ${json.username}
+▢ *Follower*: ${json.followerCount}
+▢ *Following*: ${json.followingCount}
+▢ *Private*: ${json.isprivate}
+▢ *Id*: ${json.id}
+`
+
+    conn.sendFile(m.chat, thumb, 'tiktokstalk.jpg', hasil, m)
 }
-handler.help = ['ttstalk']
+handler.help = ['tiktokstalk'].map(v => v + ' <username>')
 handler.tags = ['tools']
-handler.alias = ['ttstalk', 'stalktt']
-handler.command = /^(ttstalk|stalktt)$/i
-handler.premium = true
+handler.command = /^(tiktokstalk)$/i
 handler.limit = true
-export default handler
+handler.premium = true
+
+module.exports = handler
