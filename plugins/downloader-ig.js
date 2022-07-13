@@ -21,7 +21,8 @@ try {
 }
 handler.help = ['ig'].map(v => v + ' <url>')
 handler.tags = ['downloader']
-
 handler.command = /^(instagram|ig(dl)?)$/i
+handler.premium = true
+handler.limit = true
 
 export default handler
