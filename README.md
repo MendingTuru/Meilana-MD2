@@ -1,4 +1,4 @@
-# HINATA
+# PANGERAN-MD2
 
 <p align="center">
 	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrF6fyFoGCHmsmOXWjFxIXh-467D1nRhA4mQ&usqp=CAU" width="75%" style="margin-left: auto;margin-right: auto;display: block;">
@@ -6,19 +6,19 @@
 
 </p>
 <p align="center">
-<a href="#"><img title="RAIN - BOTV2" src="https://img.shields.io/badge/Rainbotv2-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="PANGERAN - MD2" src="https://img.shields.io/badge/KOKOPANGERAN-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/AyGemuy"><img title="AyGemuy" src="https://img.shields.io/badge/Author-Rizky-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/MendingTuru"><img title="AyGemuy" src="https://img.shields.io/badge/Author-KOKO PANGERAN-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 </p>
 </div>
 <p align="center">
-<a href="https://github.com/AyGemuy/followers"><img title="Followers" src="https://img.shields.io/github/followers/AyGemuy?style=flat-square"></a>
-<a href="https://github.com/AyGemuy/HINATA/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/AyGemuy/HINATA?style=flat-square"></a>
-<a href="https://github.com/AyGemuy/HINATA/network/members"><img title="Forks" src="https://img.shields.io/github/forks/AyGemuy/HINATA?style=flat-square"></a>
-<a href="https://github.com/AyGemuy/HINATA/watchers"><img title="watchers" src="https://img.shields.io/github/watchers/AyGemuy/HINATA?style=flat-square"></a>
+<a href="https://github.com/MendingTuru/followers"><img title="Followers" src="https://img.shields.io/github/followers/MendingTuru?style=flat-square"></a>
+<a href="https://github.com/MendingTuru/PANGERAN-MD2/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/MendingTuru/PANGERAN-MD2?style=flat-square"></a>
+<a href="https://github.com/MendingTuru/PANGERAN-MD2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/MendingTuru/PANGERAN-MD2?style=flat-square"></a>
+<a href="https://github.com/MendingTuru/PANGERAN-MD2/watchers"><img title="watchers" src="https://img.shields.io/github/watchers/MendingTuru/PANGERAN-MD2?style=flat-square"></a>
 </p>
 
 
@@ -234,5 +234,6 @@ conn.sendButton(m.chat, 'Hello world!', '@BochilGaming', 'https://github.com/Boc
 
 #### Special Thanks to
 [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo)
+[![KokoPangeran](https://github.com/pangeranbot.png?size=100)](https://github.com/MendingTuru)
 [![BochilGaming](https://github.com/BochilGaming.png?size=100)](https://github.com/BochilGaming)
 [![AyGemuy](https://github.com/AyGemuy.png?size=100)](https://github.com/AyGemuy)
