@@ -5,9 +5,10 @@ import fs from 'fs'
 import moment from 'moment-timezone'
 
 /**Oᴡɴᴇʀ number**/
-global.owner = ['+79811950242', '+79811950242'] // Put your number here
-global.mods = [] // Want some help?
-global.prems = [] // Premium user has unlimited limit
+global.owner = JSON.parse(fs.readFileSync('./owner.json')) // Put your number to folder /src/owner.json
+global.mods = JSON.parse(fs.readFileSync('./moderator.json')) // Want some help?
+global.prems = JSON.parse(fs.readFileSync('./premium.json'))
+
 global.girlfren = [] // Your gf/pacar
 
 //Api website
