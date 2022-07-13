@@ -5,10 +5,16 @@ import fs from 'fs'
 import moment from 'moment-timezone'
 
 /**Oᴡɴᴇʀ number**/
-global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) // Put your number to folder /src/owner.json
-global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Want some help?
-global.prems = JSON.parse(fs.readFileSync('./src/premium.json'))
-global.girlfren = JSON.parse(fs.readFileSync('./src/pacar.json')) // Your gf/pacar
+global.owner = [
+  ['79811950242'],
+  ['79811950242'],
+  ['79811950242'],
+  ['79811950242', 'ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ', true]
+  // [number, dia creator/owner?, dia developer?]
+] // Put your number here
+global.mods = [] // Want some help?
+global.prems = []
+global.girlfren = [] // Your gf/pacar
 
 //Api website
 global.APIs = { // API Prefix
@@ -61,12 +67,12 @@ global.apikeys = keyalpha
 
 /*============== NOMOR ==============*/
 global.nomorbot = '6287832147584'
-global.nomorown = '+79811950242'
+global.nomorown = '79811950242'
 global.namebot = 'ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×'
 global.nameown = 'Oᴡɴᴇʀ ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
 
 /*============== WATERMARK ==============*/
-global.wm = '             「 ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜× 」' //Main Watermark
+global.wm = '          「 ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜× 」' //Main Watermark
 global.wm2 = 'ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
 global.wm3 = 'ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
