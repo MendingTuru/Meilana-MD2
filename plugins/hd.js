@@ -4,7 +4,7 @@ import FormData from 'form-data'
 let handler = async (m) => {
 
 try {
- await m.reply('Sedang membuat...')
+ await m.reply('Sedang Membuat Sayangku...')
   let q = m.quoted ? m.quoted : m
   let mime = (q.msg || q).mimetype || ''
   if (!mime) throw 'Fotonya Mana?'
@@ -25,7 +25,7 @@ try {
 handler.help = ['hd', 'enhance']
 handler.tags = ['tools']
 handler.command = /^(hd|enhance)$/i
-
+handler.premium = true
 handler.limit = true
 
 export default handler
