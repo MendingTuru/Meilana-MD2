@@ -6,10 +6,10 @@
 
 </p>
 <p align="center">
-<a href="#"><img title="PANGERAN - MD2" src="https://img.shields.io/badge/KOKOPANGERAN-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="PANGERAN - MD2" src="https://img.shields.io/badge/PANGERAN-MD2-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/MendingTuru"><img title="AyGemuy" src="https://img.shields.io/badge/Author-KOKO PANGERAN-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/MendingTuru"><img title="MendingTuru" src="https://img.shields.io/badge/Author-KOKO PANGERAN-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 </p>
