@@ -13,7 +13,7 @@ _*Saweria:*_ ${saweria}
 _*Trakteer:*_ ${trakteer}
 Setelah melakukan donasi kirim bukti pembayaran ke owner
 `
-conn.sendHydrated(m.chat, str, wm, pepe, 'https://github.com/AyGemuy/', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+conn.sendHydrated(m.chat, str, wm, pepe, 'https://github.com/MendingTuru/', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝙼𝙴𝙽𝚄', '/menu']
 ], m)
 
