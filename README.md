@@ -234,6 +234,6 @@ conn.sendButton(m.chat, 'Hello world!', '@BochilGaming', 'https://github.com/Boc
 
 #### Special Thanks to
 [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo)
-[![KokoPangeran](https://github.com/pangeranbot.png?size=100)](https://github.com/MendingTuru)
+[![KokoPangeran](https://github.com/MendingTuru.png?size=100)](https://github.com/MendingTuru)
 [![BochilGaming](https://github.com/BochilGaming.png?size=100)](https://github.com/BochilGaming)
 [![AyGemuy](https://github.com/AyGemuy.png?size=100)](https://github.com/AyGemuy)
