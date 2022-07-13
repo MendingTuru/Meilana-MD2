@@ -4,7 +4,7 @@ import { youtubeSearch, youtubedl, youtubedlv2, youtubedlv3 } from '@bochilteam/
 let handler = async (m, { conn, groupMetadata, usedPrefix, text, args, command, isPrems, isOwner }) => {
 
 try {
-  if (!args || !args[0]) throw 'Uhm... urlnya mana?'
+  if (!args || !args[0]) throw 'Uhm... urlnya mana sayang?'
   let chat = global.db.data.chats[m.chat]
   const isY = /y(es)/gi.test(args[1])
   const { thumbnail, video: _video, title} = await youtubedl(args[0]).catch(async _ => await youtubedlv2(args[0])).catch(async _ => await youtubedlv3(args[0]))
@@ -68,6 +68,6 @@ handler.command = /^yt(v|mp4)?$/i
 handler.exp = 0
 handler.register = false
 handler.limit = true
-
+handler.premium = true
 
 export default handler
