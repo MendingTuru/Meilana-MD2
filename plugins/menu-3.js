@@ -23,7 +23,7 @@ Hai, *%name!*
 *Fitur:* %totalfeatures command
 
 %readmore
-*Support me:* _https://s.id/Cerdasin62_
+*Support me:* _https://instagram.com/kokopangeran_
 *Note:*
 _Jika Respon Tidak Muncul Kemungkinan Terjadi Error_
 `.trimStart(),
