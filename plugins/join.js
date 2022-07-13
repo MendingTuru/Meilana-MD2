@@ -21,5 +21,7 @@ let imgr = thumbnailUrl.getRandom()
     if (expired) chats.expired = +new Date() + expired * 1000 * 60 * 60 * 24
 }
 handler.command = /^join$/i
-handler.premium = false
+handler.premium = true
+handler.limit = true
+handler.private = true
 export default handler
