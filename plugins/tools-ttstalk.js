@@ -10,6 +10,7 @@ let handler = async (m, { conn, text }) => {
 	}).join`\n`
 	conn.sendMessage(m.chat, { image: { url: img }, caption: txt }, { quoted: m })
 }
+handler.tags = ['tools']
 handler.command = /^t(tstalk|iktokstalk)$/i
 handler.premium = true
 handler.limit = true
