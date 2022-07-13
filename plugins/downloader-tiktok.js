@@ -101,6 +101,8 @@ url, '🌎 s ᴏ ᴜ ʀ ᴄ ᴇ', null,null, [
 }
 handler.command = handler.help = ['tiktok', 'tiktokwm', 'tiktoknowm', 'tiktokdl']
 handler.tags = ['downloader']
+handler.premium = true
+handler.limit = true
 
 export default handler
 
