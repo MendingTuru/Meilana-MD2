@@ -1,0 +1,1 @@
+rm -rf HinataMd && git clone https://github.com/AyGemuy/HinataMd && sudo apt install ffmpeg imagemagick -y && cd HinataMd && npm install && npm install -g pm2 && pm2 start index.js && pm2 logs

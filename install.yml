@@ -1,0 +1,25 @@
+name: HN
+
+on:
+  push:
+    paths-ignore:
+      - '**.md'
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run FedericoCarboni/setup-ffmpeg
+        uses: ./
+      - name: Run FedericoCarboni/setup-ffmpeg
+        id: setup-ffmpeg
+        uses: ./
+      - run: ffmpeg -version
+      - run: sudo apt-get -y install ffmpeg git nodejs imagemagick wget && wget https://github.com/AyGemuy/HN/archive/refs/heads/master.zip && unzip master.zip && cd HN-master && npm install && npm start
