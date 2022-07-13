@@ -5,7 +5,7 @@ import fs from 'fs'
 import moment from 'moment-timezone'
 
 /**Oᴡɴᴇʀ number**/
-global.owner = ['+79811950242', 'ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×', true] // Put your number here
+global.owner = ['+79811950242', '+79811950242'] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.girlfren = [] // Your gf/pacar
@@ -66,7 +66,7 @@ global.namebot = 'ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×'
 global.nameown = 'Oᴡɴᴇʀ ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜× 」' //Main Watermark
+global.wm = '             「 ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜× 」' //Main Watermark
 global.wm2 = 'ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
 global.wm3 = 'ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
