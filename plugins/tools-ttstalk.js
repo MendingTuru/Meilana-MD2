@@ -13,7 +13,7 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['ttstalk']
 handler.tags = ['tools']
 handler.alias = ['ttstalk', 'stalktt']
-handler.command = /^t(tstalk|iktokstalk)$/i
+handler.command = /^(ttstalk|stalktt)$/i
 handler.premium = true
 handler.limit = true
 export default handler
