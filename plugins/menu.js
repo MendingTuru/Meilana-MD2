@@ -190,7 +190,7 @@ let handler = async (m, { conn, groupMetadata, usedPrefix: _p, __dirname }) => {
     conn.sendHydrated(m.chat, text.trim(), wm + '\n\n' + botdate, hwaifu.getRandom(), gcwangsaf, 'Pangeran Group', who.split`@`[0], '+79811950242', [
       ['Menu', '/menu'],
       ['Owner', '/owner'],
-      ['Test', '/ping'],
+      ['Test', '/ping']
     ], null, false, { mentions: [text] })
     
     /*
@@ -213,7 +213,7 @@ let handler = async (m, { conn, groupMetadata, usedPrefix: _p, __dirname }) => {
   conn.sendHydrated2(m.chat, text.trim(), wm, wel.toBuffer(), webs, 'Website', gcwangsaf, 'Group WhatsApp', [
       ['Donate', '/donasi'],
       ['Owner', '/owner'],
-      ['Test', '/ping'],
+      ['Test', '/ping']
     ], m)
     } catch {
     let wel = await new Canvas.Welcome()
@@ -234,7 +234,7 @@ let handler = async (m, { conn, groupMetadata, usedPrefix: _p, __dirname }) => {
     conn.sendHydrated2(m.chat, text.trim(), wm, wel.toBuffer(), webs, 'Website', gcwangsaf, 'Group WhatsApp', [
       ['Donate', '/donasi'],
       ['Owner', '/owner'],
-      ['Test', '/ping'],
+      ['Test', '/ping']
     ], m)
     }
     */
