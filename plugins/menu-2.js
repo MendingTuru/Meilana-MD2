@@ -339,7 +339,7 @@ switch (template) {
                 .catch(console.error)
             break
         case 'kisahnabi':
-            if (!one) return m.reply(`Example: ${usedPrefix + command} ${template} |Muhammad`)
+            if (!one) return m.reply(`Example: ${usedPrefix + command} ${template} |Pangeran MD`)
             axios
                 .get(`https://api.lolhuman.xyz/api/kisahnabi/${one}?apikey=9b817532fadff8fc7cb86862`)
                 .then(({ data }) => {
@@ -355,7 +355,7 @@ switch (template) {
                 .catch(console.error)
             break
         case 'jadwalsholat':
-            if (!one) return m.reply(`Example: ${usedPrefix + command} ${template} |Yogyakarta`)
+            if (!one) return m.reply(`Example: ${usedPrefix + command} ${template} |Jakarta`)
             axios
                 .get(`https://api.lolhuman.xyz/api/sholat/${one}?apikey=9b817532fadff8fc7cb86862`)
                 .then(({ data }) => {
@@ -1271,7 +1271,7 @@ switch (template) {
 
         // Primbon
         case 'artinama':
-            if (!one) return m.reply(`Example: ${usedPrefix + command} ${template} |Hinata MD`)
+            if (!one) return m.reply(`Example: ${usedPrefix + command} ${template} |Pangeran MD`)
             axios.get(`https://api.lolhuman.xyz/api/artinama?apikey=9b817532fadff8fc7cb86862&nama=${one}`).then(({ data }) => {
                 m.reply(data.result)
             })
@@ -1310,7 +1310,7 @@ switch (template) {
             })
             break
         case 'tebakumur':
-            if (!one) return m.reply(`Example: ${usedPrefix + command} ${template} |Hinata MD`)
+            if (!one) return m.reply(`Example: ${usedPrefix + command} ${template} |Pangeran MD`)
             axios.get(`https://api.lolhuman.xyz/api/tebakumur?apikey=9b817532fadff8fc7cb86862&name=${one}`).then(({ data }) => {
                 var teks = `Nama : ${data.result.name}\n`
                 teks += `Umur : ${data.result.age}`
@@ -1522,7 +1522,7 @@ switch (template) {
         case 'wolflogo':
         case 'steel3d':
         case 'wallgravity':
-            if (!one) return m.reply(`Example: ${usedPrefix + command} ${template} |Hinata MD`)
+            if (!one) return m.reply(`Example: ${usedPrefix + command} ${template} |Pangeran MD`)
             conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/textprome2/${args[0]}?apikey=9b817532fadff8fc7cb86862&text1=${one}&text2=${two}` } })
             break
 
@@ -1551,7 +1551,7 @@ switch (template) {
         case 'flamming':
         case 'harrypotter':
         case 'carvedwood':
-            if (!one) return m.reply(`Example: ${usedPrefix + command} ${template} |Hinata MD`)
+            if (!one) return m.reply(`Example: ${usedPrefix + command} ${template} |Pangeran MD`)
             conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/photooxy1/${args[0]}?apikey=9b817532fadff8fc7cb86862&text=${one}` } })
             break
 
@@ -1559,7 +1559,7 @@ switch (template) {
         case 'arcade8bit':
         case 'battlefield4':
         case 'pubg':
-            if (!one) return m.reply(`Example: ${usedPrefix + command} ${template} |Hinata MD`)
+            if (!one) return m.reply(`Example: ${usedPrefix + command} ${template} |Pangeran MD`)
             conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/photooxy2/${args[0]}?apikey=9b817532fadff8fc7cb86862&text1=${one}&text2=${two}` } })
             break
 
@@ -1594,7 +1594,7 @@ switch (template) {
         case 'goldplaybutton':
         case 'silverplaybutton':
         case 'freefire':
-            if (!one) return m.reply(`Example: ${usedPrefix + command} ${template} |Hinata MD`)
+            if (!one) return m.reply(`Example: ${usedPrefix + command} ${template} |Pangeran MD`)
             conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/ephoto1/${args[0]}?apikey=9b817532fadff8fc7cb86862&text=${one}` } })
             break
 }
