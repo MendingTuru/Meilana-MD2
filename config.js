@@ -5,19 +5,7 @@ import fs from 'fs'
 import moment from 'moment-timezone'
 
 /**Oᴡɴᴇʀ number**/
-global.owner = [
-  ['79811950242', '️Oᴡɴᴇʀ One ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
-  ['79811950242', '️Oᴡɴᴇʀ Two ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
-  ['79811950242', '️Oᴡɴᴇʀ Three ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
-  ['79811950242', '️Oᴡɴᴇʀ Four ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
-  ['79811950242', '️Oᴡɴᴇʀ Five ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
-  ['79811950242', '️Oᴡɴᴇʀ Six ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
-  ['79811950242', '️Oᴡɴᴇʀ Seven ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
-  ['79811950242', '️Oᴡɴᴇʀ Eight ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
-  ['79811950242', '️Oᴡɴᴇʀ Nine ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
-  ['79811950242', '️Oᴡɴᴇʀ Teen ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true]
-  // [number, dia creator/owner?, dia developer?]
-] // Put your number here
+global.owner = ['+79811950242', 'ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×', true] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.girlfren = [] // Your gf/pacar
