@@ -102,7 +102,7 @@ handler.all = async function (m) {
                "extendedTextMessage": {
                         "text":wm,
                         "title": bottime,
-                        'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
+                        'jpegThumbnail': fs.readFileSync('./pangeranbot.png')
                                }
                              } 
                             }
@@ -110,13 +110,13 @@ handler.all = async function (m) {
                   global.fliveLoc = {
             key: {
             participant : '0@s.whatsapp.net'},
-            message: { "liveLocationMessage": { "caption": wm,"h": `${bottime}`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
+            message: { "liveLocationMessage": { "caption": wm,"h": `${bottime}`, 'jpegThumbnail': fs.readFileSync('./pangeranbot.png')}}
            }
                
                   global.fliveLoc2 = {
             key: {
             participant : '0@s.whatsapp.net'},
-            message: { "liveLocationMessage": { "title": wm,"h": bottime, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
+            message: { "liveLocationMessage": { "title": wm,"h": bottime, 'jpegThumbnail': fs.readFileSync('./pangeranbot.png')}}
            }
                
                    global.ftoko = {
@@ -127,7 +127,7 @@ handler.all = async function (m) {
                        "product": {
                            "productImage":{
                                "mimetype": "image/jpeg",
-                               "jpegThumbnail": fs.readFileSync('./thumbnail.jpg') //Gambarnye
+                               "jpegThumbnail": fs.readFileSync('./pangeranbot.png') //Gambarnye
                            },
                            "title": wm, //Kasih namalu 
                            "description": bottime, 
@@ -147,7 +147,7 @@ handler.all = async function (m) {
               message: {
                            documentMessage: {
                            title: wm, 
-                           jpegThumbnail: fs.readFileSync('./thumbnail.jpg')
+                           jpegThumbnail: fs.readFileSync('./pangeranbot.png')
                                  }
                                }
                              }
@@ -161,7 +161,7 @@ handler.all = async function (m) {
                    inviteCode: null,
                    groupName: wm, 
                    caption: bottime, 
-                   jpegThumbnail: fs.readFileSync('./thumbnail.jpg')
+                   jpegThumbnail: fs.readFileSync('./pangeranbot.png')
                }
            }
        }
@@ -176,7 +176,7 @@ handler.all = async function (m) {
                         'seconds': '999999999', 
                         'gifPlayback': 'true', 
                         'caption': bottime,
-                        'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
+                        'jpegThumbnail': fs.readFileSync('./pangeranbot.png')
                                }
                               }
                              }
