@@ -685,8 +685,8 @@ export async function handler(chatUpdate) {
                 if (!('simi' in chat)) chat.simi = false
                 if (!('sPromote' in chat)) chat.sPromote = ''
                 if (!('sWelcome' in chat)) chat.sWelcome = ''
-                if (!('viewonce' in chat)) chat.viewonce = false
-                if (!('viewOnce' in chat)) chat.viewOnce = false
+                if (!('viewonce' in chat)) chat.viewonce = true
+                if (!('viewOnce' in chat)) chat.viewOnce = true
                 if (!('welcome' in chat)) chat.welcome = true
                 if (!isNumber(chat.expired)) chat.expired = 0
             } else
@@ -694,7 +694,7 @@ export async function handler(chatUpdate) {
                     antiDelete: false,
 	                antiLink: false,
 	                antiToxic: true,
-	                delete: false,
+	                delete: true,
 	                detect: false,
 	                expired: 0,
 	                getmsg: true,
@@ -710,7 +710,7 @@ export async function handler(chatUpdate) {
 	                sWelcome: '',
 	                viewOnce: false,
 	                viewonce: false,
-	                welcome: true
+	                welcome: false,
 	                
                 }
             let settings = global.db.data.settings[this.user.jid]
@@ -1187,15 +1187,15 @@ export async function deleteUpdate(message) {
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '*👤AKSES DITOLAK*\nPerintah ini hanya dapat digunakan oleh _*OWWNER!1!1!*_',
-        owner: '*👤AKSES DITOLAK*\nPerintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
-        mods: '*👤AKSES DITOLAK*\nPerintah ini hanya dapat digunakan oleh _*Moderator*_ !',
-        premium: '*👤AKSES DITOLAK*\nPerintah Ini Khusus Member _*Premium!*_\n_*Mau Jadi User Prem?*_\n\n_*List Premium:*_\n5k/2minggu*_\n_*10k/permanen*_\n\n_*Selebihnya Chat Ownerku Tante:*_\nwa.me/+79811950242',
-        group: '*👥AKSES DITOLAK*\nPerintah ini hanya dapat digunakan di grup!',
-        private: '👤*AKSES DITOLAK*\nPerintah ini hanya dapat digunakan di Chat Pribadi!',
-        admin: '*👤AKSES DITOLAK*\nPerintah ini hanya untuk *Admin* grup!',
-        botAdmin: '*👻AKSES DITOLAK*\nJadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-        unreg: '*👤AKSES DITOLAK*\nSilahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*',
+        rowner: '*👤AKSES DITOLAK*\n\nPerintah ini hanya dapat digunakan oleh _*OWWNER!1!1!*_',
+        owner: '*👤AKSES DITOLAK*\n\nPerintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
+        mods: '*👤AKSES DITOLAK*\n\nPerintah ini hanya dapat digunakan oleh _*Moderator*_ !',
+        premium: '*👤AKSES DITOLAK*\n\nPerintah Ini Khusus Member _*Premium!*_\n_*Mau Jadi User Prem?*_\n\n_*List Premium:*_\n5k/2minggu*_\n_*10k/permanen*_\n\n_*Selebihnya Chat Ownerku Tante:*_\nwa.me/+79811950242',
+        group: '*👥AKSES DITOLAK*\n\nPerintah ini hanya dapat digunakan di grup!',
+        private: '👤*AKSES DITOLAK*\n\nPerintah ini hanya dapat digunakan di Chat Pribadi!',
+        admin: '*👤AKSES DITOLAK*\n\nPerintah ini hanya untuk *Admin* grup!',
+        botAdmin: '*👻AKSES DITOLAK*\n\nJadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
+        unreg: '*👤AKSES DITOLAK*\n\nSilahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*',
         restrict: 'Fitur ini di *disable*!'
     }[type]
     if (msg) return conn.sendHydrated2(m.chat, msg, author, `${logo}`, `${webs}`, "Website", `${gcwangsaf}`, "GROUP WHATSAPP", [["Owner", ".donasi"]], m)
