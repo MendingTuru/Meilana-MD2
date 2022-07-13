@@ -88,7 +88,7 @@ global.loadDatabase = async function loadDatabase() {
 }
 loadDatabase()
 
-global.authFile = `${opts._[0] || 'session'}.data.json`
+global.authFile = `${opts._[0] || 'pangeran'}.data.json`
 const { state, saveState } = store.useSingleFileAuthState(global.authFile)
 
 const connectionOptions = {
@@ -163,8 +163,8 @@ global.reloadHandler = async function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = 'Welcome *@user* 👋 in *@subject*'
-  conn.bye = 'Bye *@user* 👋'
+  conn.welcome = 'Aelah Beban Group Bertambah 1 Lagi Awokawok *@user* 👋 in *@subject*'
+  conn.bye = 'Asik Beban Group Berkurang 1 Awokawok *@user* 👋'
   conn.spromote = '*@user* Sekarang jadi admin!'
   conn.sdemote = '*@user* Sekarang bukan lagi admin!'
   conn.sDesc = 'Deskripsi telah diubah menjadi \n@desc'
