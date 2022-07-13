@@ -6,16 +6,16 @@ import moment from 'moment-timezone'
 
 /**Oᴡɴᴇʀ number**/
 global.owner = [
-  ['6282195322106', '️Oᴡɴᴇʀ One ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Two ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Three ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Four ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Five ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Six ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Seven ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Eight ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Nine ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Teen ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true]
+  ['79811950242', '️Oᴡɴᴇʀ One ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
+  ['79811950242', '️Oᴡɴᴇʀ Two ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
+  ['79811950242', '️Oᴡɴᴇʀ Three ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
+  ['79811950242', '️Oᴡɴᴇʀ Four ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
+  ['79811950242', '️Oᴡɴᴇʀ Five ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
+  ['79811950242', '️Oᴡɴᴇʀ Six ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
+  ['79811950242', '️Oᴡɴᴇʀ Seven ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
+  ['79811950242', '️Oᴡɴᴇʀ Eight ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
+  ['79811950242', '️Oᴡɴᴇʀ Nine ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true],
+  ['79811950242', '️Oᴡɴᴇʀ Teen ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -72,15 +72,15 @@ let keyalpha = api[Math.floor(Math.random() * api.length)]
 global.apikeys = keyalpha
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6285171216276'
-global.nomorown = '6282195322106'
-global.namebot = 'ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ'
-global.nameown = 'Oᴡɴᴇʀ ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ'
+global.nomorbot = '6287832147584'
+global.nomorown = '+79811950242'
+global.namebot = 'ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×'
+global.nameown = 'Oᴡɴᴇʀ ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ あ⁩ 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ'
+global.wm = '                「 ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜× 」' //Main Watermark
+global.wm2 = 'ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
+global.wm3 = 'ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
@@ -108,11 +108,11 @@ global.thumbnailUrl = [
 ]
 
 /*============== SOCIAL ==============*/
-global.sig = 'https://instagram.com/wudysoft.2'
-global.sgh = 'https://github.com/AyGemuy'
-global.sgc = 'https://chat.whatsapp.com/I2cagI7uWN59oxMomPQvfM'
-global.sdc = 'https://github.com/AyGemuy'
-global.snh = 'https://github.com/AyGemuy'
+global.sig = 'https://instagram.com/kokopangeran_'
+global.sgh = 'https://github.com/MendingTuru'
+global.sgc = 'https://chat.whatsapp.com/BelumBuatTod'
+global.sdc = 'https://github.com/MendingTuru'
+global.snh = 'https://github.com/MendingTuru'
 
 /*============== HENTAI ==============*/ 
 //OPTIONS
@@ -370,32 +370,32 @@ global.htjava = '⫹⫺' //hiasan Doang :v
 global.stickpack = '.'
 global.stickauth = `☂︎ ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.author = "ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ X Wudysoft"
+global.author = "ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜× X ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×"
 global.multiplier = 69 // The higher, The harder levelup
 
 /*============== ERR ==============*/
-global.eror = 'Erorr...'
-global.wait = 'Wait...'
+global.eror = 'Erorr Sayang...'
+global.wait = 'Wait Sayang...'
 global.render = 'Render...'
-global.webs = 'https://s.id/Cerdasin62/'//Your Website
-global.logo = "https://i.pinimg.com/564x/f7/d2/e4/f7d2e48fd59a8c01cd396bfc70b0a2d1.jpg"//Your logo
-global.gcwangsaf = "https://chat.whatsapp.com/I2cagI7uWN59oxMomPQvfM"//Link Group whatsapp
+global.webs = 'https://instagram.com/kokopangeran_/' //Your Website
+global.logo = "https://i.pinimg.com/564x/f7/d2/e4/f7d2e48fd59a8c01cd396bfc70b0a2d1.jpg" //Your logo
+global.gcwangsaf = "https://chat.whatsapp.com/BelumBuatMek" //Link Group whatsapp
 
 /*============== PAYMENT ==============*/
-global.saweria = "https://saweria.co/wudysoft"// website saweria.co
-global.dana = ["0887435373103"]
-global.pulsa = ["082195322106"]//pulsa here
-global.trakteer = "https://trakteer.id/wudysoft"//Link url https://
-global.paypal = "wudysoft@gmail.com"//paypal email
-global.gopay = "082195322106"//Numver for Payment digital Gopay Gojek
+global.saweria = "https://saweria.co/kokopangeran"// website saweria.co
+global.dana = ["087832147584"]
+global.pulsa = ["087832147584"] //pulsa here
+global.trakteer = "https://trakteer.id/kokopangeran"//Link url https://
+global.paypal = "pangeran.dwnta01@gmail.com" //paypal email
+global.gopay = "087832147584"//Numver for Payment digital Gopay Gojek
 
 /*============== PAYMENT ==============*/
-global.pdana = '0887435373103'
-global.povo = '082195322106'
-global.pgopay = '082195322106'
-global.ppulsa = '082195322106'
-global.ppulsa2 = '082195322106'
-global.psaweria = 'https://saweria.com/Wudysoft'
+global.pdana = '087832147584'
+global.povo = '087832147584'
+global.pgopay = '087832147584'
+global.ppulsa = '087832147584'
+global.ppulsa2 = '087832147584'
+global.psaweria = 'https://saweria.com/kokopangeran'
 
 //Rpg
 global.rpg = {
