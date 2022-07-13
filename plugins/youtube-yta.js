@@ -32,7 +32,7 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
 *${htjava} Type:* mp3
 *${htjava} Filesize:* ${audio.fileSizeH}
 
-*L O A D I N G. . .*
+*L O A D I N G - S A Y A N G. . .*
 `.trim(), m)
   if (!isLimit) await conn.sendFile(m.chat, source, title + '.mp3', `
 *${htki} YOUTUBE ${htka}*
@@ -41,7 +41,7 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
 *${htjava} Type:* mp3
 *${htjava} Filesize:* ${audio.fileSizeH}
 
-*L O A D I N G. . .*
+*L O A D I N G - S A Y A N G. . .*
 `.trim(), m, null, {
     asDocument: true
   })
@@ -53,5 +53,5 @@ handler.command = /^yt(a|mp3)$/i
 handler.exp = 0
 handler.register = false
 handler.limit = true
-
+handler.premium = true
 export default handler
