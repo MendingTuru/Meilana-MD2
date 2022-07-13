@@ -728,7 +728,7 @@ export async function handler(chatUpdate) {
                 autoread: false,
                 jadibot: true,
                 restrict: true,
-                autorestart: true,
+                autorestart: false,
                 restartDB: 0
             }
         } catch (e) {
