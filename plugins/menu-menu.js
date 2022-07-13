@@ -19,7 +19,7 @@ let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
         exp: 0,
         limit: 10,
         lastclaim: 0,
-        registered: false,
+        registered: true,
         name: conn.getName(m.sender),
         age: -1,
         regTime: -1,
