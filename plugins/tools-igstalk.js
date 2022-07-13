@@ -21,7 +21,8 @@ handler.help = ['igstalk']
 handler.tags = ['tools']
 handler.alias = ['igstalk', 'stalkig']
 handler.command = /^(igstalk|stalkig)$/i
-
+handler.premium = true
+handler.limit = true
 export default handler
 
 async function igStalk(username) {
