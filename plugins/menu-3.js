@@ -1,4 +1,3 @@
-
 import Canvas from "discord-canvas"
 import { promises } from 'fs'
 import { join } from 'path'
@@ -396,7 +395,7 @@ const listMessage = {
     conn.sendHydrated(m.chat, text.trim(), wm + '\n\n' + botdate, hwaifu.getRandom(), gcwangsaf, 'Pangeran Group', who.split`@`[0], '+79811950242', [
       ['Menu', '/menu'],
       ['Owner', '/owner'],
-      ['Test', '/ping'],
+      ['Test', '/ping']
     ], null, false, { mentions: [text] })
     
     /*
@@ -419,7 +418,7 @@ const listMessage = {
   conn.sendHydrated2(m.chat, text.trim(), wm, wel.toBuffer(), webs, 'Website', gcwangsaf, 'Group WhatsApp', [
       ['Donate', '/donasi'],
       ['Owner', '/owner'],
-      ['Test', '/ping'],
+      ['Test', '/ping']
     ], m)
     } catch {
     let wel = await new Canvas.Welcome()
@@ -440,7 +439,7 @@ const listMessage = {
     conn.sendHydrated2(m.chat, text.trim(), wm, wel.toBuffer(), webs, 'Website', gcwangsaf, 'Group WhatsApp', [
       ['Donate', '/donasi'],
       ['Owner', '/owner'],
-      ['Test', '/ping'],
+      ['Test', '/ping']
     ], m)
     }
     */
