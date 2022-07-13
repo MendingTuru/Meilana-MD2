@@ -15,7 +15,7 @@ https://github.com/adiwajshing
 *👤Nurutomo:*
 https://github.com/Nurutomo
 
-*Koko Pangeran:*
+*👤Koko Pangeran:*
 https://github.com/MendingTuru
 `
 conn.reply(m.chat, tqto, m, { contextInfo: { externalAdReply: {
