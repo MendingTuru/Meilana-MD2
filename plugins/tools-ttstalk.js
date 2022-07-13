@@ -11,5 +11,6 @@ let handler = async (m, { conn, text }) => {
 	conn.sendMessage(m.chat, { image: { url: img }, caption: txt }, { quoted: m })
 }
 handler.command = /^t(tstalk|iktokstalk)$/i
-
+handler.premium = true
+handler.limit = true
 export default handler
