@@ -18,7 +18,7 @@ global.girlfren = [
   ['6283844508188'],
   ['6283844508188'],
   ['6283844508188'],
-  ['6283844508188', 'Meilan', false]
+  ['6283844508188', 'Meilana', false]
   // [number, dia creator/owner?, dia developer?]
 ] // Your gf/pacar
 
@@ -77,7 +77,7 @@ global.nomorown = '79811950242'
 global.nomorgf = '6283844508188'
 global.namebot = 'ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×'
 global.nameown = 'Oᴡɴᴇʀ ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
-global.namegf = 'Oᴡɴᴇʀ Meilan'
+global.namegf = 'Oᴡɴᴇʀ Meilana'
 
 /*============== WATERMARK ==============*/
 global.wm = '        「 ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜× 」' //Main Watermark
