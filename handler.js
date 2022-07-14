@@ -693,7 +693,7 @@ export async function handler(chatUpdate) {
                 global.db.data.chats[m.chat] = {
                     antiDelete: false,
 	                antiLink: false,
-	                antiToxic: true,
+	                antiToxic: false,
 	                delete: true,
 	                detect: false,
 	                expired: 0,
