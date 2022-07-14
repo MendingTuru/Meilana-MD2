@@ -77,6 +77,7 @@ global.nomorown = '79811950242'
 global.nomorgf = '6283844508188'
 global.namebot = 'ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×'
 global.nameown = 'Oᴡɴᴇʀ ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
+global.namegf = 'Meilan/Sopiput'
 
 /*============== WATERMARK ==============*/
 global.wm = '          「 ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜× 」' //Main Watermark
@@ -110,10 +111,15 @@ global.thumbnailUrl = [
 
 /*============== SOCIAL ==============*/
 global.sig = 'https://instagram.com/kokopangeran_'
+global.sig2 = 'https://instagram.com/kokopangeran_'
 global.sgh = 'https://github.com/MendingTuru'
+global.sgh2 = 'https://github.com/Meii02'
 global.sgc = 'https://chat.whatsapp.com/BelumBuatTod'
+global.sgc2 = 'https://chat.whatsapp.com/BelumBuatTod'
 global.sdc = 'https://github.com/MendingTuru'
+global.sdc2 = 'https://github.com/Meii02'
 global.snh = 'https://github.com/MendingTuru'
+global.snh2 = 'https://github.com/Meii02'
 
 /*============== HENTAI ==============*/ 
 //OPTIONS
