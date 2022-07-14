@@ -7,7 +7,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------- NOMOR
   let nowner = `${nomorgf.split`@`[0]}@s.whatsapp.net`
   let teksnomor = `${htki} *GIRLS FRIENDS OWNER* ${htka}
-• @${nomorown.split`@`[0]} •
+• @${nomorgf.split`@`[0]} •
 ------- ${namegf} -------
 📮 *Note:*
 • Owner tidak menerima save contact
@@ -17,13 +17,13 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 • No Telp`
 
 //------------ BIO
-let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
-let teksbio = `${htki} *BIODATA* ${htka}
+let ppown = await conn.profilePictureUrl(nomorgf + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
+let teksbio = `${htki} *BIODATA GIRLS FRIENDS* ${htka}
 *ɴᴀᴍᴇ:* Meilan×፝֟͜×
 *ᴀɢᴇ:* 18ᵗʰ
 *sᴛᴀᴛᴜs:* single 
 *ʙɪʀᴛʜᴅᴀʏ:* 21 Feb 2002
-*ᴀᴅᴅʀᴇss:* Indonesia, Jawa Barat, Jakarta
+*ᴀᴅᴅʀᴇss:* Indonesia, Jawa Timur, Surabaya
 *- - sᴋɪʟʟs: - -* 
 > JavaScript [89.7%]
 > Python [13.4%]
@@ -38,14 +38,14 @@ const sections = [
    {
 	title: `${htjava} GIRLS FRIENDS OWNER –––––––––·•`,
 	rows: [
-	    {title: "📱 • Nomor", rowId: ".owner nomor"},
-	{title: "🎨 • Biodata", rowId: ".owner bio"},
+	    {title: "📱 • Nomor", rowId: ".gfowner nomor"},
+	{title: "🎨 • Biodata", rowId: ".gfowner bio"},
 	{title: "🌎 • Script", rowId: ".sc"},
 	]
     },{
 	title: `${htjava} SUPPORT ME –––––––·•`,
 	rows: [
-	    {title: "💹 • Donasi", rowId: ".owner nomor"},
+	    {title: "💹 • Donasi", rowId: ".gfowner nomor"},
 	{title: "🔖 • Sewa", rowId: ".sewabot"},
 	{title: "🌟 • Buy Premium", rowId: ".premium"},
 	]
