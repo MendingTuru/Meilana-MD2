@@ -22,8 +22,8 @@ let teksbio = `${htki} *BIODATA GIRLS FRIENDS* ${htka}
 *ɴᴀᴍᴇ:* Meilan×፝֟͜×
 *ᴀɢᴇ:* 18ᵗʰ
 *sᴛᴀᴛᴜs:* single 
-*ʙɪʀᴛʜᴅᴀʏ:* 21 Feb 2002
-*ᴀᴅᴅʀᴇss:* Indonesia, Jawa Timur, Surabaya
+*ʙɪʀᴛʜᴅᴀʏ:* 04 Mei 2004
+*ᴀᴅᴅʀᴇss:* Indonesia, Jawa Barat, Tanggerang
 *- - sᴋɪʟʟs: - -* 
 > JavaScript [89.7%]
 > Python [13.4%]
