@@ -54,7 +54,7 @@ let ktx = ktnya.getRandom()
         exp: 0,
         limit: 10,
         lastclaim: 0,
-        registered: false,
+        registered: true,
         name: conn.getName(m.sender),
         age: -1,
         regTime: -1,
@@ -225,7 +225,7 @@ let ktx = ktnya.getRandom()
     },{
 	title: `${htki} SUPPORT ${htka}`,
 	rows: [
-	    {title: `🔖 SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
+	    {title: `🔖 SEWA`, rowId: ".sewabot", description: "Menampilkan list harga sewa BOT"},
 	    {title: `🌟 LIST PREMIUM`, rowId: ".premlist", description: "Menampilkan list harga premium"},
 	    {title: `💹 DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
 	]
