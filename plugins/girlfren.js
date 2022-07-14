@@ -10,10 +10,10 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 • @${nomorgf.split`@`[0]} •
 ------- ${namegf} -------
 📮 *Note:*
-• Owner tidak menerima save contact
-• Owner berhak blockir tanpa alasan
-• Berbicaralah yang sopan & tidak spam
-• Owner Hanya merespon yang berkaitan dengan BOT
+• Tidak menerima save contact, Takut Pangeran Marah
+• Saya Cewe Pangeran berhak blockir tanpa alasan
+• Berbicaralah yang sopan & jangan chat gw pangeran cemburuan
+• Hanya merespon yang berkaitan dengan BOT, Kalo bukan bahas bot gw blokir!
 • No Telp`
 
 //------------ BIO
