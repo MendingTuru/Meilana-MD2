@@ -1,1 +1,1 @@
-web: node . --server
+worker: npm i && npm update && node .
