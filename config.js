@@ -14,7 +14,13 @@ global.owner = [
 ] // Put your number here
 global.mods = [] // Want some help?
 global.prems = []
-global.girlfren = [] // Your gf/pacar
+global.girlfren = [
+  ['6283844508188'],
+  ['6283844508188'],
+  ['6283844508188'],
+  ['6283844508188', 'Sopiput', true]
+  // [number, dia creator/owner?, dia developer?]
+] // Your gf/pacar
 
 //Api website
 global.APIs = { // API Prefix
@@ -68,6 +74,7 @@ global.apikeys = keyalpha
 /*============== NOMOR ==============*/
 global.nomorbot = '6287832147584'
 global.nomorown = '79811950242'
+global.nomorgf = '6283844508188'
 global.namebot = 'ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×'
 global.nameown = 'Oᴡɴᴇʀ ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
 
