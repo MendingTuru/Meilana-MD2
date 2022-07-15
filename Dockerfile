@@ -10,10 +10,10 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN npm install && npm install qrcode-terminal
+RUN npm install && npm install pm2 -g 
 
 COPY . .
 
 EXPOSE 5000
 
-RUN npm start
+CMD ["npm", "start"]
