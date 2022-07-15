@@ -25,7 +25,6 @@ try {
 handler.help = ['hd', 'enhance']
 handler.tags = ['tools']
 handler.command = /^(hd|enhance)$/i
-handler.premium = true
 handler.limit = true
 
 export default handler
