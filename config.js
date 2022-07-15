@@ -114,7 +114,7 @@ global.sig = 'https://instagram.com/xrnaaazy_'
 global.sig2 = 'https://instagram.com/kokopangeran_'
 global.sgh = 'https://github.com/Meii02'
 global.sgh2 = 'https://github.com/MendingTuru'
-global.sgc = 'https://chat.whatsapp.com/BelumBuatTod'
+global.sgc = 'https://chat.whatsapp.com/Lfa0zyH7ko23xkT2C7OKgJ'
 global.sdc = 'https://github.com/MendingTuru'
 global.snh = 'https://github.com/MendingTuru'
 
@@ -375,7 +375,7 @@ global.htjava = '⫹⫺' //hiasan Doang :v
 global.stickpack = '.'
 global.stickauth = `☂︎ ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.author = "ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜× X ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×"
+global.author = "xrnaaazy_×፝֟͜× X ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×"
 global.multiplier = 69 // The higher, The harder levelup
 
 /*============== ERR ==============*/
@@ -384,7 +384,7 @@ global.wait = 'Wait Sayang...'
 global.render = 'Render...'
 global.webs = 'https://instagram.com/kokopangeran_/' //Your Website
 global.logo = "https://i.pinimg.com/564x/f7/d2/e4/f7d2e48fd59a8c01cd396bfc70b0a2d1.jpg" //Your logo
-global.gcwangsaf = "https://chat.whatsapp.com/BelumBuatMek" //Link Group whatsapp
+global.gcwangsaf = "https://chat.whatsapp.com/Lfa0zyH7ko23xkT2C7OKgJ" //Link Group whatsapp
 
 /*============== PAYMENT ==============*/
 global.saweria = "https://saweria.co/kokopangeran"// website saweria.co
