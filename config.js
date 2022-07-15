@@ -12,8 +12,8 @@ global.owner = [
   ['6283844508188', 'Meilana×፝֟͜×', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods = [] // Want some help?
-global.prems = []
+global.mods = ['79811950242'] // Want some help?
+global.prems = ['79811950242']
 global.boyfren = [
   ['79811950242'],
   ['79811950242'],
