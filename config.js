@@ -6,19 +6,19 @@ import moment from 'moment-timezone'
 
 /**Oᴡɴᴇʀ number**/
 global.owner = [
-  ['79811950242'],
-  ['79811950242'],
-  ['79811950242'],
-  ['79811950242', 'ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ', true]
+  ['6283844508188'],
+  ['6283844508188'],
+  ['6283844508188'],
+  ['6283844508188', 'Meilana×፝֟͜×', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
 global.prems = []
-global.girlfren = [
-  ['6283844508188'],
-  ['6283844508188'],
-  ['6283844508188'],
-  ['6283844508188', 'Meilana', false]
+global.boyfren = [
+  ['79811950242'],
+  ['79811950242'],
+  ['79811950242'],
+  ['79811950242', 'ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Your gf/pacar
 
@@ -72,17 +72,17 @@ let keyalpha = api[Math.floor(Math.random() * api.length)]
 global.apikeys = keyalpha
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6287832147584'
-global.nomorown = '79811950242'
-global.nomorgf = '6283844508188'
-global.namebot = 'ᵈʳᴋ ᴏ ᴋ ᴏ ⁻ ᴹ ᴰ×፝֟͜×'
-global.nameown = 'Oᴡɴᴇʀ ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
-global.namegf = 'Oᴡɴᴇʀ Meilana'
+global.nomorbot = '97698911812'
+global.nomorown = '6283844508188'
+global.nomorbf = '79811950242'
+global.namebot = 'Meii-MD×፝֟͜×'
+global.nameown = 'Oᴡɴᴇʀ Meilana×፝֟͜×'
+global.namebf = 'Oᴡɴᴇʀ ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
 
 /*============== WATERMARK ==============*/
-global.wm = '        「 ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜× 」' //Main Watermark
-global.wm2 = 'ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
-global.wm3 = 'ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
+global.wm = '       「 Meilana X ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜× 」' //Main Watermark
+global.wm2 = 'Meilana X ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
+global.wm3 = 'Meilana X ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
@@ -110,10 +110,10 @@ global.thumbnailUrl = [
 ]
 
 /*============== SOCIAL ==============*/
-global.sig = 'https://instagram.com/kokopangeran_'
-global.sig2 = 'https://instagram.com/xrnaaazy_'
-global.sgh = 'https://github.com/MendingTuru'
-global.sgh2 = 'https://github.com/Meii02'
+global.sig = 'https://instagram.com/xrnaaazy_'
+global.sig2 = 'https://instagram.com/kokopangeran_'
+global.sgh = 'https://github.com/Meii02'
+global.sgh2 = 'https://github.com/MendingTuru'
 global.sgc = 'https://chat.whatsapp.com/BelumBuatTod'
 global.sdc = 'https://github.com/MendingTuru'
 global.snh = 'https://github.com/MendingTuru'
