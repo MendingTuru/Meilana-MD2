@@ -220,13 +220,14 @@ let ktx = ktnya.getRandom()
 	rows: [
 	    {title: `⚡ SPEED BOT`, rowId: ".ping", description: "Menampilkan kecepatan respon BOT"},
 	    {title: `💌 OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT"},
+            {title: `❤️ MY BOY FRIEND`, rowId: ".owner", description: "Menampilkan List My Boy Friend"},
 	    {title: `📔 SCRIPT BOT`, rowId: ".sc", description: `Source Code`},
 	]
     },{
 	title: `${htki} SUPPORT ${htka}`,
 	rows: [
 	    {title: `🔖 SEWA`, rowId: ".sewabot", description: "Menampilkan list harga sewa BOT"},
-	    {title: `🌟 LIST PREMIUM`, rowId: ".premlist", description: "Menampilkan list harga premium"},
+	    {title: `🌟 LIST PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
 	    {title: `💹 DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
 	]
 	},{
