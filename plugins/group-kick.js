@@ -4,18 +4,21 @@ let handler = async (m, { conn, participants }) => {
     let kickedUser = []
     for (let user of users)
         if (user.endsWith('@s.whatsapp.net') && !(participants.find(v => areJidsSameUser(v.id, user)) || { admin: true }).admin) {
-            const res = await conn.groupParticipantsUpdate(m.chat, [user], 'remove')
+            const res = await conn.groupParticipantsUpdate(m.chat, [m.sender], "remove")
             kickedUser.concat(res)
             await delay(1 * 1000)
         }
-    m.reply(`Succes kick ${kickedUser.map(v => '@' + v.split('@')[0])}`, null, { mentions: kickedUser })
+    m.reply(`Yes dapat Hadiah kick:v ${kickedUser.map(v => '@' + v.split('@')[0])}`, null, { mentions: kickedUser })
 
 }
-handler.help = ['kick @user']
+handler.help = ['kick', '-'].map(v => 'o' + v + ' @user')
 handler.tags = ['group']
-handler.command = /^(kic?k|remove|tendang|\-)$/i
+handler.command = /^(kick|o-)$/i
+
 handler.admin = true
 handler.group = true
 handler.botAdmin = true
 
-module.exports = handler
+export default handler
+
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
