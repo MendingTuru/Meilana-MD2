@@ -16,9 +16,9 @@
 </div>
 <p align="center">
 <a href="https://github.com/MendingTuru/followers"><img title="Followers" src="https://img.shields.io/github/followers/MendingTuru?style=flat-square"></a>
-<a href="https://github.com/MendingTuru/PANGERAN-MD2/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/MendingTuru/PANGERAN-MD2?style=flat-square"></a>
-<a href="https://github.com/MendingTuru/PANGERAN-MD2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/MendingTuru/PANGERAN-MD2?style=flat-square"></a>
-<a href="https://github.com/MendingTuru/PANGERAN-MD2/watchers"><img title="watchers" src="https://img.shields.io/github/watchers/MendingTuru/PANGERAN-MD2?style=flat-square"></a>
+<a href="https://github.com/MendingTuru/Meilana-MD2/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/MendingTuru/Meilana-MD2?style=flat-square"></a>
+<a href="https://github.com/MendingTuru/Meilana-MD2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/MendingTuru/Meilana-MD2?style=flat-square"></a>
+<a href="https://github.com/MendingTuru/Meilana-MD2/watchers"><img title="watchers" src="https://img.shields.io/github/watchers/MendingTuru/Meilana-MD2?style=flat-square"></a>
 </p>
 
 
