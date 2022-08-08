@@ -1,4 +1,4 @@
-# PANGERAN-MD2
+# MEILANA-MD2
 
 <p align="center">
 	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrF6fyFoGCHmsmOXWjFxIXh-467D1nRhA4mQ&usqp=CAU" width="75%" style="margin-left: auto;margin-right: auto;display: block;">
@@ -6,7 +6,7 @@
 
 </p>
 <p align="center">
-<a href="#"><img title="PANGERAN - MD2" src="https://img.shields.io/badge/PANGERAN-MD2-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="MEILANA - MD2" src="https://img.shields.io/badge/MEILANA-MD2-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
 <a href="https://github.com/MendingTuru"><img title="MendingTuru" src="https://img.shields.io/badge/Author-KOKO PANGERAN-red.svg?style=for-the-badge&logo=github"></a>
