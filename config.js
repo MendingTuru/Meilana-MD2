@@ -12,13 +12,13 @@ global.owner = [
   ['6283844508188', 'Meilana×፝֟͜×', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods = ['79811950242'] // Want some help?
-global.prems = ['79811950242']
+global.mods = ['6285929970260'] // Want some help?
+global.prems = ['6285929970260']
 global.boyfren = [
-  ['79811950242'],
-  ['79811950242'],
-  ['79811950242'],
-  ['79811950242', 'ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×', true]
+  ['6285929970260'],
+  ['6285929970260'],
+  ['6285929970260'],
+  ['6285929970260', 'ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Your gf/pacar
 
@@ -74,7 +74,7 @@ global.apikeys = keyalpha
 /*============== NOMOR ==============*/
 global.nomorbot = '97698911812'
 global.nomorown = '6283844508188'
-global.nomorbf = '79811950242'
+global.nomorbf = '6285929970260'
 global.namebot = 'Meii-MD×፝֟͜×'
 global.nameown = 'Oᴡɴᴇʀ Meilana×፝֟͜×'
 global.namebf = 'Oᴡɴᴇʀ ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×'
@@ -88,10 +88,10 @@ global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:m
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 
 /*============== LOGO ==============*/
-global.thumb = 'https://i.ibb.co/ccY2Q0k/20220429-191026.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/793b6accf3758f092742a.jpg'
+global.thumb = 'https://i.ibb.co/1LF6QHQ/pangeran.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/be35f3f279c9af2d607e8.jpg'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumbs = ['https://i.ibb.co/ccY2Q0k/20220429-191026.jpg', 'https://telegra.ph/file/f87047ec6e5f0d4a9ea91.jpg', 'https://telegra.ph/file/88edbb01051b397574def.jpg','https://telegra.ph/file/7957630a57078c5ec0400.jpg']
+global.thumbs = ['https://i.ibb.co/1LF6QHQ/pangeran.jpg', 'https://telegra.ph/file/f87047ec6e5f0d4a9ea91.jpg', 'https://telegra.ph/file/88edbb01051b397574def.jpg','https://telegra.ph/file/7957630a57078c5ec0400.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.flaaa = [
  'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
