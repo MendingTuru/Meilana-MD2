@@ -1190,7 +1190,7 @@ global.dfail = (type, m, conn) => {
         rowner: '*👤AKSES DITOLAK*\n\nPerintah ini hanya dapat digunakan oleh _*OWWNER!1!1!*_',
         owner: '*👤AKSES DITOLAK*\n\nPerintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
         mods: '*👤AKSES DITOLAK*\n\nPerintah ini hanya dapat digunakan oleh _*Moderator*_ !',
-        premium: '*👤AKSES DITOLAK*\n\nPerintah Ini Khusus Member _*Premium!*_\n_*Mau Jadi User Prem?*_\n\n_*List Premium:*_\n_*5k/2minggu*_\n_*10k/permanen*_\n\n_*Selebihnya Chat Ownerku Tante:*_\nwa.me/+79811950242',
+        premium: '*👤AKSES DITOLAK*\n\nPerintah Ini Khusus Member _*Premium!*_\n_*Mau Jadi User Prem?*_\n\n_*List Premium:*_\n_*5k/2minggu*_\n_*10k/permanen*_\n\n_*Selebihnya Chat Ownerku Tante:*_\nwa.me/+6285929970260',
         group: '*👥AKSES DITOLAK*\n\nPerintah ini hanya dapat digunakan di grup!',
         private: '👤*AKSES DITOLAK*\n\nPerintah ini hanya dapat digunakan di Chat Pribadi!',
         admin: '*👤AKSES DITOLAK*\n\nPerintah ini hanya untuk *Admin* grup!',
